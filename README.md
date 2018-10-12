@@ -5,3 +5,5 @@
 >+ bash$ npm install
 >+ bash$ meteor update
 >+ bash$ meteor
+## Comando para cambiar a rama dev
+>+ git checkout dev
