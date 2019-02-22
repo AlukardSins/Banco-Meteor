@@ -1,12 +1,7 @@
 import { Meteor } from 'meteor/meteor';
-import Links from '/imports/api/links';
 import Users from '/imports/api/users';
 import Accounts from '/imports/api/accounts';
 import Transactions from '/imports/api/transactions';
-
-function insertLink(title, url) {
-  Links.insert({ title, url, createdAt: new Date() });
-}
 
 function insertUsers(document_type, document, names, last_name, country, department, city, neighborhood, residence_number, cell_phone_number, role, email, status, name_user, password) {
   Users.insert({ document_type, document, names, last_name, country, department, city, neighborhood, residence_number, cell_phone_number, role, email, status, name_user, password, opening_date: new Date() });
@@ -21,29 +16,6 @@ function insertAccounts(accounts_type, accounts_balance, benefit_rate, status) {
 }
 
 Meteor.startup(() => {
-  // If the Links collection is empty, add some data.
-  if (Links.find().count() === 0) {
-    insertLink(
-      'Do the Tutorial',
-      'https://www.meteor.com/tutorials/react/creating-an-app'
-    );
-
-    insertLink(
-      'Follow the Guide',
-      'http://guide.meteor.com'
-    );
-
-    insertLink(
-      'Read the Docs',
-      'https://docs.meteor.com'
-    );
-
-    insertLink(
-      'Discussions',
-      'https://forums.meteor.com'
-    );
-  }
-
   if (Users.find().count() === 0) {
     insertUsers('cc','123456', 'orlando', 'correa', 'antioquia', 'medellin', 'sevilla', 'calle 80', '3015896265', 'cliente', 'orlanditolindo@gmail.com', 'activo', 'orlando.correa', '123456');
     insertUsers('cc','654321', 'pedro', 'gomez', 'antioquia', 'medellin', 'sevilla', 'calle 79', '3015896245', 'administrador', 'pedro@gmail.com', 'activo', 'pedro.gomez', '123456');
