@@ -1,0 +1,14 @@
+{
+  "format": "isopack-2-unibuild",
+  "declaredExports": [],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "fourseven:scss",
+      "constraint": "4.5.4"
+    }
+  ],
+  "resources": []
+}

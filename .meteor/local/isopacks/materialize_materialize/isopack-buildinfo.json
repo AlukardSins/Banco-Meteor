@@ -1,0 +1,5468 @@
+{
+  "builtBy": "meteor/31",
+  "unibuildDependencies": {
+    "os.json": {
+      "files": {
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/package.js": "2de5a4e79567ba9f121665e795983749f95c9516",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/package.json": "057203f3565fcd10e984cae23666cea388632949",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/Gruntfile.js": "64908b8a01ec020dc4d68b541d4db76c6ab96e58",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js/materialize.js": "9c160670580ce2156e3d57e548a653ebf150f5d1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js/materialize.min.js": "c843f0dc497314574c608ca28cc742bb041786d5",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/init.js": "3b004e6b5d7d19aea501f5b21224e85cf62042f0",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/jquery.timeago.min.js": "195bd7c9ad52954b74f5616580b378bab82376b7",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/lunr.min.js": "b016256d08b2a7599c9bcbef06cceb19b7224233",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/prism.js": "f0f2cb4b9bca564e2593c0faf41572934bb539fb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/search.js": "6ed800b14d12e03175d4d938cb4776b96bb91385",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider/nouislider.js": "5ea02ebb720e939da2b26a0a297436746c881d9c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider/nouislider.min.js": "539ff8cdafabf555cd3cb5384e25712a97a8ec64",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/anime.min.js": "2eda2a9c656c2d35470c0f9caf13d7ffeb322014",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/autocomplete.js": "cd8a8419dda40cb9cde89b72ce1522a438f066fc",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/buttons.js": "d875725d5c94662c129f33dfa1ee95b1a122dcb3",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/cards.js": "219732cb92af7f6686b000ea35f6f98af588802b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/carousel.js": "23bf53cf1431e1795d71e24c63708b8b23a16bfb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/cash.js": "47a349992bb40153cf873517e4c80943db024d51",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/characterCounter.js": "2fd0c9435622c81e70d9b80fa288c5a863e93f05",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/chips.js": "b1ddcc6a9628347eea225fd3f7a79265bfbf5a86",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/collapsible.js": "c5d4e889e3310b86216d140862002088a8888cec",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/component.js": "2ee59b7335f27287963a176a824b105142724a51",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/datepicker.js": "cef49e69d3221f83330b124922e5abcc7b0bec12",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/dropdown.js": "2a58e55af022e2f3bd958ddf662fe644648e44c4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/forms.js": "d09cd768cae8c07f9226f4de5728d28bfbca3be5",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/global.js": "96d3119eeea7360526162176b039a3daf98b3aed",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/materialbox.js": "31f90427bcf49424bb4ffe434976a590b3db101c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/modal.js": "432e9e8be7195d6269f56dbf8c60ca16aaab0de1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/parallax.js": "27e6051ce66ce1fa7db32c3f01d36577fe4c1d41",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/pushpin.js": "bbf5b95ac4e2c746e98eb872a637b7918eab8a43",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/range.js": "ccb77ce85374bab3b11b6b7d57b45e08abf63f85",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/scrollspy.js": "cc4894838a1270ef2c11b28e36da03684e85e9ac",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/select.js": "2759d642901f9d9ae198844a9e9b3edb1616ca74",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/sidenav.js": "ecf7bfc9af71ecfd59c429339fa25acca63f0167",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/slider.js": "628aa41be689afa2eadee31efa2f38b3c34f3f57",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tabs.js": "9063b37aff022548c2b93d81916cada9468eca74",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tapTarget.js": "dfb108ff6f0a9d971f9e96d16b671dfe4edb72fb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/timepicker.js": "da9e9d8d0fe5f71ac36eccbe00e67245023404ca",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/toasts.js": "fa549fda078b0d95ad570d624e0063e33a9e3ed1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tooltip.js": "b49737be30a01f9a6034c5eb789a87524984384a",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/waves.js": "c5c7db8c00b958b9c67d0c18483fda0156dfea8f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js/init.js": "dbb2b99205b2fdc5b23c19b88cb98fcf6e5b1797",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js/masonry.pkgd.min.js": "d0c88f86074d5d3e2865a21dbc181a346e7fee92",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js/init.js": "74900a29ec98dbe8fcc5c4eb3a5738feccce90d3",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js/init.js": "93cebcf555a00ac138e0f3d1294cbb8bec538a5d"
+      },
+      "directories": [
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "Gruntfile.js",
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "dist/",
+            "docs/",
+            "extras/",
+            "images/",
+            "jade/",
+            "js/",
+            "res/",
+            "sass/",
+            "templates/",
+            "test/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/css",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "materialize.js",
+            "materialize.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js",
+            "jquery.timeago.min.js",
+            "lunr.min.js",
+            "prism.js",
+            "search.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "noUiSlider/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "nouislider.js",
+            "nouislider.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "favicon/",
+            "showcase/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/favicon",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/favicon",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/showcase",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/showcase",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "about/",
+            "getting_started/",
+            "index/",
+            "mobile/",
+            "page-contents/",
+            "parallax/",
+            "showcase/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/about",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/about",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/getting_started",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/getting_started",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/index",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/index",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/mobile",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/mobile",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/page-contents",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/page-contents",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/parallax",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/parallax",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/showcase",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/showcase",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/js",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "anime.min.js",
+            "autocomplete.js",
+            "buttons.js",
+            "cards.js",
+            "carousel.js",
+            "cash.js",
+            "characterCounter.js",
+            "chips.js",
+            "collapsible.js",
+            "component.js",
+            "datepicker.js",
+            "dropdown.js",
+            "forms.js",
+            "global.js",
+            "materialbox.js",
+            "modal.js",
+            "parallax.js",
+            "pushpin.js",
+            "range.js",
+            "scrollspy.js",
+            "select.js",
+            "sidenav.js",
+            "slider.js",
+            "tabs.js",
+            "tapTarget.js",
+            "timepicker.js",
+            "toasts.js",
+            "tooltip.js",
+            "waves.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/res",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/res",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "components/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "forms/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "masonry-template/",
+            "parallax-template/",
+            "starter-template/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/css",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js",
+            "masonry.pkgd.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/css",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/css",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "html/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test/html",
+          "include": [
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test/html",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^client\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.json": {
+      "files": {
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/package.js": "2de5a4e79567ba9f121665e795983749f95c9516",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/package.json": "057203f3565fcd10e984cae23666cea388632949",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js/materialize.js": "9c160670580ce2156e3d57e548a653ebf150f5d1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_checkboxes.scss": "3bb0793f3de76c531a3b22029e971f62c4c84505",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_file-input.scss": "488f282f733dcd6b2fe83d19346b4611aaf91fba",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_forms.scss": "b1925a0920acaeca9f8559e64491b980507658f9",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_input-fields.scss": "9bf49e1eda7d173cc54d77e23fd99757ff991489",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_radio-buttons.scss": "e9079bb0270fc098370051f1825a769b519cc3a4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_range.scss": "9d4397114c24de2e203df05f0d3f5d5ffe959f3b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_select.scss": "83f245f706e6251c0bfe61430e55db4fe01f8ae9",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_switches.scss": "d61e403d0293c6edee142cd184c9e470054b78a6",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_badges.scss": "e2b0fb0a7e3ae4f61adb3a9c05358093042846cd",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_buttons.scss": "b1569333d80a58bc115ce91e28b88eef213013bc",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_cards.scss": "11e2b96a61d0bed205da264837611926c73c0248",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_carousel.scss": "c01e9afc49cac42a6c96687574c690751168ed2f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_chips.scss": "9d7c0dfbe3262ac1f63565ca49fff9e63eb27f57",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_collapsible.scss": "934a8467137aed00bff1aedcad0feb305d0f8e80",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_color-classes.scss": "f0b8003674ebad27f57c96005dc6c5aeecb7d6f4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_color-variables.scss": "b16e15bf6edfa6d68c8204e5002673d35e8c980f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_datepicker.scss": "32ae6630af6ac1c3fa0ca3dddec2e680028c397e",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_dropdown.scss": "3d1ad110066a22c9302b5c77f00f4c5f709a0ae8",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_global.scss": "d0ffdedf7260a4961b380d33d7d80ce4e7c8c13b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_grid.scss": "402a4dee2b15e4dd751ddb959aca8e0185a09e9c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_icons-material-design.scss": "c563d0a099fa50500c58a9b9dab61185ea0134c1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_materialbox.scss": "14cf5ce271ba7d56cc4682876b4665a63fb9432a",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_modal.scss": "b89d59d9325114c847c359149a4ee26465816de2",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_navbar.scss": "6a6f0cd1129de29d57a10296561bd5651d8f81f8",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_normalize.scss": "30778d446832f3e3922c360e69c22edd65935537",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_preloader.scss": "7f094adb34ec94531112bfb4988bee0f2080dd4b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_pulse.scss": "0a5a6f7e6c662488fce1a7e45a0eec465071a2c9",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_sidenav.scss": "5dc27d46a8fa30bdac1ba07065370fa17ca2775c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_slider.scss": "d7c475192db547750acb128402ac9ea0fc57d511",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_table_of_contents.scss": "ba24674a5bc75a08cb8aa6524f5dcf0bd72e0b77",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_tabs.scss": "5839df23df8b0391462ac6589d162553131d2a78",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_tapTarget.scss": "b3a2f07eb1aa538cd2d31db0455d983b53face4e",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_timepicker.scss": "3c8a9c2fc25ef5a80552b92bee59156b5cb615d1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_toast.scss": "7c12e44dc0ead8fc44bbc028c33f76d4f4a64e9f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_tooltip.scss": "4ea2c6602437267966968a408b51e8ea4cf61bf4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_transitions.scss": "7b3f310462dd7640395b4b5997487a0e53ca15f0",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_typography.scss": "cee9152d01f9036757dd331f40abb6ff822bd0c0",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_variables.scss": "dff39d3e750150153968982431c3e6bc70f9e712",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_waves.scss": "64f8f696b3b06fb113479daa98d3495e15a74804",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/materialize.scss": "d6dbc825ab8a77cb8a763cade08bfd7d1f5bdf58",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/Gruntfile.js": "64908b8a01ec020dc4d68b541d4db76c6ab96e58",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/css/prism.css": "f44f3ebe301b5fb9dc2197b1e93cb07bfab538fc",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css/materialize.css": "c7fc32e6efccfe88c8d5196132a49dda66877c20",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css/materialize.min.css": "80ae4aa0dba3634dd9bf59586d541d2dd8d8191c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js/materialize.min.js": "c843f0dc497314574c608ca28cc742bb041786d5",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/init.js": "3b004e6b5d7d19aea501f5b21224e85cf62042f0",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/jquery.timeago.min.js": "195bd7c9ad52954b74f5616580b378bab82376b7",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/lunr.min.js": "b016256d08b2a7599c9bcbef06cceb19b7224233",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/prism.js": "f0f2cb4b9bca564e2593c0faf41572934bb539fb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/search.js": "6ed800b14d12e03175d4d938cb4776b96bb91385",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider/nouislider.css": "80fcd2a9b12666b46393bbc6346242e0bf46782c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider/nouislider.js": "5ea02ebb720e939da2b26a0a297436746c881d9c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider/nouislider.min.js": "539ff8cdafabf555cd3cb5384e25712a97a8ec64",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/anime.min.js": "2eda2a9c656c2d35470c0f9caf13d7ffeb322014",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/autocomplete.js": "cd8a8419dda40cb9cde89b72ce1522a438f066fc",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/buttons.js": "d875725d5c94662c129f33dfa1ee95b1a122dcb3",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/cards.js": "219732cb92af7f6686b000ea35f6f98af588802b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/carousel.js": "23bf53cf1431e1795d71e24c63708b8b23a16bfb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/cash.js": "47a349992bb40153cf873517e4c80943db024d51",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/characterCounter.js": "2fd0c9435622c81e70d9b80fa288c5a863e93f05",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/chips.js": "b1ddcc6a9628347eea225fd3f7a79265bfbf5a86",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/collapsible.js": "c5d4e889e3310b86216d140862002088a8888cec",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/component.js": "2ee59b7335f27287963a176a824b105142724a51",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/datepicker.js": "cef49e69d3221f83330b124922e5abcc7b0bec12",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/dropdown.js": "2a58e55af022e2f3bd958ddf662fe644648e44c4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/forms.js": "d09cd768cae8c07f9226f4de5728d28bfbca3be5",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/global.js": "96d3119eeea7360526162176b039a3daf98b3aed",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/materialbox.js": "31f90427bcf49424bb4ffe434976a590b3db101c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/modal.js": "432e9e8be7195d6269f56dbf8c60ca16aaab0de1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/parallax.js": "27e6051ce66ce1fa7db32c3f01d36577fe4c1d41",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/pushpin.js": "bbf5b95ac4e2c746e98eb872a637b7918eab8a43",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/range.js": "ccb77ce85374bab3b11b6b7d57b45e08abf63f85",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/scrollspy.js": "cc4894838a1270ef2c11b28e36da03684e85e9ac",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/select.js": "2759d642901f9d9ae198844a9e9b3edb1616ca74",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/sidenav.js": "ecf7bfc9af71ecfd59c429339fa25acca63f0167",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/slider.js": "628aa41be689afa2eadee31efa2f38b3c34f3f57",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tabs.js": "9063b37aff022548c2b93d81916cada9468eca74",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tapTarget.js": "dfb108ff6f0a9d971f9e96d16b671dfe4edb72fb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/timepicker.js": "da9e9d8d0fe5f71ac36eccbe00e67245023404ca",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/toasts.js": "fa549fda078b0d95ad570d624e0063e33a9e3ed1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tooltip.js": "b49737be30a01f9a6034c5eb789a87524984384a",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/waves.js": "c5c7db8c00b958b9c67d0c18483fda0156dfea8f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/_style.scss": "4147eed53b0afa0355d718a876e3a633a69dc9d7",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/ghpages-materialize.scss": "d9a2a025731dc021d645d038b36a2885d5ca3c3d",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/css/style.css": "db4b8bb85b4418f5095940658c5838456965aa99",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js/init.js": "dbb2b99205b2fdc5b23c19b88cb98fcf6e5b1797",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js/masonry.pkgd.min.js": "d0c88f86074d5d3e2865a21dbc181a346e7fee92",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/css/style.css": "0e77b7b3d002ae6b589a28af11be36fa4be9aa17",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js/init.js": "74900a29ec98dbe8fcc5c4eb3a5738feccce90d3",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/css/style.css": "7d5957b303e066262d183630b75606b329ecd821",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js/init.js": "93cebcf555a00ac138e0f3d1294cbb8bec538a5d"
+      },
+      "directories": [
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "Gruntfile.js",
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "dist/",
+            "docs/",
+            "extras/",
+            "images/",
+            "jade/",
+            "js/",
+            "res/",
+            "sass/",
+            "templates/",
+            "test/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "prism.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "materialize.css",
+            "materialize.min.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "materialize.js",
+            "materialize.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js",
+            "jquery.timeago.min.js",
+            "lunr.min.js",
+            "prism.js",
+            "search.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "noUiSlider/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "nouislider.css",
+            "nouislider.js",
+            "nouislider.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "favicon/",
+            "showcase/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/favicon",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/favicon",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/showcase",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/showcase",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "about/",
+            "getting_started/",
+            "index/",
+            "mobile/",
+            "page-contents/",
+            "parallax/",
+            "showcase/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/about",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/about",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/getting_started",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/getting_started",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/index",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/index",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/mobile",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/mobile",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/page-contents",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/page-contents",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/parallax",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/parallax",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/showcase",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/showcase",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "anime.min.js",
+            "autocomplete.js",
+            "buttons.js",
+            "cards.js",
+            "carousel.js",
+            "cash.js",
+            "characterCounter.js",
+            "chips.js",
+            "collapsible.js",
+            "component.js",
+            "datepicker.js",
+            "dropdown.js",
+            "forms.js",
+            "global.js",
+            "materialbox.js",
+            "modal.js",
+            "parallax.js",
+            "pushpin.js",
+            "range.js",
+            "scrollspy.js",
+            "select.js",
+            "sidenav.js",
+            "slider.js",
+            "tabs.js",
+            "tapTarget.js",
+            "timepicker.js",
+            "toasts.js",
+            "tooltip.js",
+            "waves.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/res",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/res",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "_style.scss",
+            "ghpages-materialize.scss",
+            "materialize.scss"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "components/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "_badges.scss",
+            "_buttons.scss",
+            "_cards.scss",
+            "_carousel.scss",
+            "_chips.scss",
+            "_collapsible.scss",
+            "_color-classes.scss",
+            "_color-variables.scss",
+            "_datepicker.scss",
+            "_dropdown.scss",
+            "_global.scss",
+            "_grid.scss",
+            "_icons-material-design.scss",
+            "_materialbox.scss",
+            "_modal.scss",
+            "_navbar.scss",
+            "_normalize.scss",
+            "_preloader.scss",
+            "_pulse.scss",
+            "_sidenav.scss",
+            "_slider.scss",
+            "_table_of_contents.scss",
+            "_tabs.scss",
+            "_tapTarget.scss",
+            "_timepicker.scss",
+            "_toast.scss",
+            "_tooltip.scss",
+            "_transitions.scss",
+            "_typography.scss",
+            "_variables.scss",
+            "_waves.scss"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "forms/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "_checkboxes.scss",
+            "_file-input.scss",
+            "_forms.scss",
+            "_input-fields.scss",
+            "_radio-buttons.scss",
+            "_range.scss",
+            "_select.scss",
+            "_switches.scss"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "masonry-template/",
+            "parallax-template/",
+            "starter-template/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "style.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js",
+            "masonry.pkgd.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "style.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "style.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "html/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test/html",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test/html",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    },
+    "web.browser.legacy.json": {
+      "files": {
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/package.js": "2de5a4e79567ba9f121665e795983749f95c9516",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/package.json": "057203f3565fcd10e984cae23666cea388632949",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js/materialize.js": "9c160670580ce2156e3d57e548a653ebf150f5d1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_checkboxes.scss": "3bb0793f3de76c531a3b22029e971f62c4c84505",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_file-input.scss": "488f282f733dcd6b2fe83d19346b4611aaf91fba",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_forms.scss": "b1925a0920acaeca9f8559e64491b980507658f9",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_input-fields.scss": "9bf49e1eda7d173cc54d77e23fd99757ff991489",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_radio-buttons.scss": "e9079bb0270fc098370051f1825a769b519cc3a4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_range.scss": "9d4397114c24de2e203df05f0d3f5d5ffe959f3b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_select.scss": "83f245f706e6251c0bfe61430e55db4fe01f8ae9",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms/_switches.scss": "d61e403d0293c6edee142cd184c9e470054b78a6",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_badges.scss": "e2b0fb0a7e3ae4f61adb3a9c05358093042846cd",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_buttons.scss": "b1569333d80a58bc115ce91e28b88eef213013bc",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_cards.scss": "11e2b96a61d0bed205da264837611926c73c0248",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_carousel.scss": "c01e9afc49cac42a6c96687574c690751168ed2f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_chips.scss": "9d7c0dfbe3262ac1f63565ca49fff9e63eb27f57",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_collapsible.scss": "934a8467137aed00bff1aedcad0feb305d0f8e80",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_color-classes.scss": "f0b8003674ebad27f57c96005dc6c5aeecb7d6f4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_color-variables.scss": "b16e15bf6edfa6d68c8204e5002673d35e8c980f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_datepicker.scss": "32ae6630af6ac1c3fa0ca3dddec2e680028c397e",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_dropdown.scss": "3d1ad110066a22c9302b5c77f00f4c5f709a0ae8",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_global.scss": "d0ffdedf7260a4961b380d33d7d80ce4e7c8c13b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_grid.scss": "402a4dee2b15e4dd751ddb959aca8e0185a09e9c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_icons-material-design.scss": "c563d0a099fa50500c58a9b9dab61185ea0134c1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_materialbox.scss": "14cf5ce271ba7d56cc4682876b4665a63fb9432a",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_modal.scss": "b89d59d9325114c847c359149a4ee26465816de2",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_navbar.scss": "6a6f0cd1129de29d57a10296561bd5651d8f81f8",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_normalize.scss": "30778d446832f3e3922c360e69c22edd65935537",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_preloader.scss": "7f094adb34ec94531112bfb4988bee0f2080dd4b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_pulse.scss": "0a5a6f7e6c662488fce1a7e45a0eec465071a2c9",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_sidenav.scss": "5dc27d46a8fa30bdac1ba07065370fa17ca2775c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_slider.scss": "d7c475192db547750acb128402ac9ea0fc57d511",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_table_of_contents.scss": "ba24674a5bc75a08cb8aa6524f5dcf0bd72e0b77",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_tabs.scss": "5839df23df8b0391462ac6589d162553131d2a78",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_tapTarget.scss": "b3a2f07eb1aa538cd2d31db0455d983b53face4e",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_timepicker.scss": "3c8a9c2fc25ef5a80552b92bee59156b5cb615d1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_toast.scss": "7c12e44dc0ead8fc44bbc028c33f76d4f4a64e9f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_tooltip.scss": "4ea2c6602437267966968a408b51e8ea4cf61bf4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_transitions.scss": "7b3f310462dd7640395b4b5997487a0e53ca15f0",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_typography.scss": "cee9152d01f9036757dd331f40abb6ff822bd0c0",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_variables.scss": "dff39d3e750150153968982431c3e6bc70f9e712",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/_waves.scss": "64f8f696b3b06fb113479daa98d3495e15a74804",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/materialize.scss": "d6dbc825ab8a77cb8a763cade08bfd7d1f5bdf58",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/Gruntfile.js": "64908b8a01ec020dc4d68b541d4db76c6ab96e58",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/css/prism.css": "f44f3ebe301b5fb9dc2197b1e93cb07bfab538fc",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css/materialize.css": "c7fc32e6efccfe88c8d5196132a49dda66877c20",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css/materialize.min.css": "80ae4aa0dba3634dd9bf59586d541d2dd8d8191c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js/materialize.min.js": "c843f0dc497314574c608ca28cc742bb041786d5",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/init.js": "3b004e6b5d7d19aea501f5b21224e85cf62042f0",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/jquery.timeago.min.js": "195bd7c9ad52954b74f5616580b378bab82376b7",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/lunr.min.js": "b016256d08b2a7599c9bcbef06cceb19b7224233",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/prism.js": "f0f2cb4b9bca564e2593c0faf41572934bb539fb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js/search.js": "6ed800b14d12e03175d4d938cb4776b96bb91385",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider/nouislider.css": "80fcd2a9b12666b46393bbc6346242e0bf46782c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider/nouislider.js": "5ea02ebb720e939da2b26a0a297436746c881d9c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider/nouislider.min.js": "539ff8cdafabf555cd3cb5384e25712a97a8ec64",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/anime.min.js": "2eda2a9c656c2d35470c0f9caf13d7ffeb322014",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/autocomplete.js": "cd8a8419dda40cb9cde89b72ce1522a438f066fc",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/buttons.js": "d875725d5c94662c129f33dfa1ee95b1a122dcb3",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/cards.js": "219732cb92af7f6686b000ea35f6f98af588802b",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/carousel.js": "23bf53cf1431e1795d71e24c63708b8b23a16bfb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/cash.js": "47a349992bb40153cf873517e4c80943db024d51",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/characterCounter.js": "2fd0c9435622c81e70d9b80fa288c5a863e93f05",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/chips.js": "b1ddcc6a9628347eea225fd3f7a79265bfbf5a86",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/collapsible.js": "c5d4e889e3310b86216d140862002088a8888cec",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/component.js": "2ee59b7335f27287963a176a824b105142724a51",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/datepicker.js": "cef49e69d3221f83330b124922e5abcc7b0bec12",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/dropdown.js": "2a58e55af022e2f3bd958ddf662fe644648e44c4",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/forms.js": "d09cd768cae8c07f9226f4de5728d28bfbca3be5",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/global.js": "96d3119eeea7360526162176b039a3daf98b3aed",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/materialbox.js": "31f90427bcf49424bb4ffe434976a590b3db101c",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/modal.js": "432e9e8be7195d6269f56dbf8c60ca16aaab0de1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/parallax.js": "27e6051ce66ce1fa7db32c3f01d36577fe4c1d41",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/pushpin.js": "bbf5b95ac4e2c746e98eb872a637b7918eab8a43",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/range.js": "ccb77ce85374bab3b11b6b7d57b45e08abf63f85",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/scrollspy.js": "cc4894838a1270ef2c11b28e36da03684e85e9ac",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/select.js": "2759d642901f9d9ae198844a9e9b3edb1616ca74",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/sidenav.js": "ecf7bfc9af71ecfd59c429339fa25acca63f0167",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/slider.js": "628aa41be689afa2eadee31efa2f38b3c34f3f57",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tabs.js": "9063b37aff022548c2b93d81916cada9468eca74",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tapTarget.js": "dfb108ff6f0a9d971f9e96d16b671dfe4edb72fb",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/timepicker.js": "da9e9d8d0fe5f71ac36eccbe00e67245023404ca",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/toasts.js": "fa549fda078b0d95ad570d624e0063e33a9e3ed1",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/tooltip.js": "b49737be30a01f9a6034c5eb789a87524984384a",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/js/waves.js": "c5c7db8c00b958b9c67d0c18483fda0156dfea8f",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/_style.scss": "4147eed53b0afa0355d718a876e3a633a69dc9d7",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/ghpages-materialize.scss": "d9a2a025731dc021d645d038b36a2885d5ca3c3d",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/css/style.css": "db4b8bb85b4418f5095940658c5838456965aa99",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js/init.js": "dbb2b99205b2fdc5b23c19b88cb98fcf6e5b1797",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js/masonry.pkgd.min.js": "d0c88f86074d5d3e2865a21dbc181a346e7fee92",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/css/style.css": "0e77b7b3d002ae6b589a28af11be36fa4be9aa17",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js/init.js": "74900a29ec98dbe8fcc5c4eb3a5738feccce90d3",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/css/style.css": "7d5957b303e066262d183630b75606b329ecd821",
+        "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js/init.js": "93cebcf555a00ac138e0f3d1294cbb8bec538a5d"
+      },
+      "directories": [
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "Gruntfile.js",
+            "package.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "dist/",
+            "docs/",
+            "extras/",
+            "images/",
+            "jade/",
+            "js/",
+            "res/",
+            "sass/",
+            "templates/",
+            "test/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "prism.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "materialize.css",
+            "materialize.min.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "materialize.js",
+            "materialize.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/dist/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js",
+            "jquery.timeago.min.js",
+            "lunr.min.js",
+            "prism.js",
+            "search.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/docs/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "noUiSlider/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "nouislider.css",
+            "nouislider.js",
+            "nouislider.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/extras/noUiSlider",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "favicon/",
+            "showcase/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/favicon",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/favicon",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/showcase",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/images/showcase",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "about/",
+            "getting_started/",
+            "index/",
+            "mobile/",
+            "page-contents/",
+            "parallax/",
+            "showcase/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/about",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/about",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/getting_started",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/getting_started",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/index",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/index",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/mobile",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/mobile",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/page-contents",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/page-contents",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/parallax",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/parallax",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/showcase",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/jade/showcase",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "anime.min.js",
+            "autocomplete.js",
+            "buttons.js",
+            "cards.js",
+            "carousel.js",
+            "cash.js",
+            "characterCounter.js",
+            "chips.js",
+            "collapsible.js",
+            "component.js",
+            "datepicker.js",
+            "dropdown.js",
+            "forms.js",
+            "global.js",
+            "materialbox.js",
+            "modal.js",
+            "parallax.js",
+            "pushpin.js",
+            "range.js",
+            "scrollspy.js",
+            "select.js",
+            "sidenav.js",
+            "slider.js",
+            "tabs.js",
+            "tapTarget.js",
+            "timepicker.js",
+            "toasts.js",
+            "tooltip.js",
+            "waves.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/res",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/res",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "_style.scss",
+            "ghpages-materialize.scss",
+            "materialize.scss"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "components/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "_badges.scss",
+            "_buttons.scss",
+            "_cards.scss",
+            "_carousel.scss",
+            "_chips.scss",
+            "_collapsible.scss",
+            "_color-classes.scss",
+            "_color-variables.scss",
+            "_datepicker.scss",
+            "_dropdown.scss",
+            "_global.scss",
+            "_grid.scss",
+            "_icons-material-design.scss",
+            "_materialbox.scss",
+            "_modal.scss",
+            "_navbar.scss",
+            "_normalize.scss",
+            "_preloader.scss",
+            "_pulse.scss",
+            "_sidenav.scss",
+            "_slider.scss",
+            "_table_of_contents.scss",
+            "_tabs.scss",
+            "_tapTarget.scss",
+            "_timepicker.scss",
+            "_toast.scss",
+            "_tooltip.scss",
+            "_transitions.scss",
+            "_typography.scss",
+            "_variables.scss",
+            "_waves.scss"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "forms/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "_checkboxes.scss",
+            "_file-input.scss",
+            "_forms.scss",
+            "_input-fields.scss",
+            "_radio-buttons.scss",
+            "_range.scss",
+            "_select.scss",
+            "_switches.scss"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/sass/components/forms",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "masonry-template/",
+            "parallax-template/",
+            "starter-template/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "style.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js",
+            "masonry.pkgd.min.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/masonry-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "style.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/parallax-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "css/",
+            "js/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/css",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "style.css"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/css",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": [
+            "init.js"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/templates/starter-template/js",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": [
+            "html/"
+          ]
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test/html",
+          "include": [
+            "\\.css$",
+            "\\.scss$",
+            "\\.sass$",
+            "\\.js$"
+          ],
+          "exclude": [
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "names": [
+            ".meteorignore"
+          ],
+          "contents": []
+        },
+        {
+          "absPath": "/D/Desarrollo/Banco-Meteor/packages/materialize/test/html",
+          "include": [
+            "\\/$"
+          ],
+          "exclude": [
+            "^tests\\/$",
+            "^server\\/$",
+            "^\\.",
+            "\\.app-test\\.",
+            "\\.app-tests\\.",
+            "\\.app-spec\\.",
+            "\\.app-specs\\.",
+            "\\.test\\.",
+            "\\.tests\\.",
+            "\\.spec\\.",
+            "\\.specs\\."
+          ],
+          "contents": []
+        }
+      ]
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/D/Desarrollo/Banco-Meteor/packages/materialize/package.js": "2de5a4e79567ba9f121665e795983749f95c9516",
+      "/D/Desarrollo/Banco-Meteor/packages/materialize/package.json": "057203f3565fcd10e984cae23666cea388632949"
+    },
+    "directories": []
+  },
+  "pluginProviderPackageMap": {
+    "materialize:materialize": {
+      "kind": "local",
+      "sourceRoot": "/D/Desarrollo/Banco-Meteor/packages/materialize"
+    },
+    "meteor": {
+      "kind": "versioned",
+      "version": "1.9.2"
+    },
+    "fourseven:scss": {
+      "kind": "versioned",
+      "version": "4.5.4"
+    }
+  },
+  "includeCordovaUnibuild": false
+}

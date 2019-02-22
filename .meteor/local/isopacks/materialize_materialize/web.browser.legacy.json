@@ -1,0 +1,553 @@
+{
+  "format": "isopack-2-unibuild",
+  "declaredExports": [
+    {
+      "name": "M",
+      "testOnly": false
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "fourseven:scss",
+      "constraint": "4.5.4"
+    }
+  ],
+  "resources": [
+    {
+      "type": "source",
+      "extension": "js",
+      "file": "web.browser.legacy/dist/js/materialize.js",
+      "length": 383373,
+      "offset": 0,
+      "usesDefaultSourceProcessor": true,
+      "path": "dist/js/materialize.js",
+      "hash": "9c160670580ce2156e3d57e548a653ebf150f5d1",
+      "fileOptions": {
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/forms/_checkboxes.scss",
+      "length": 4796,
+      "offset": 0,
+      "path": "sass/components/forms/_checkboxes.scss",
+      "hash": "3bb0793f3de76c531a3b22029e971f62c4c84505",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/forms/_file-input.scss",
+      "length": 758,
+      "offset": 0,
+      "path": "sass/components/forms/_file-input.scss",
+      "hash": "488f282f733dcd6b2fe83d19346b4611aaf91fba",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/forms/_forms.scss",
+      "length": 389,
+      "offset": 0,
+      "path": "sass/components/forms/_forms.scss",
+      "hash": "b1925a0920acaeca9f8559e64491b980507658f9",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/forms/_input-fields.scss",
+      "length": 7619,
+      "offset": 0,
+      "path": "sass/components/forms/_input-fields.scss",
+      "hash": "9bf49e1eda7d173cc54d77e23fd99757ff991489",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/forms/_radio-buttons.scss",
+      "length": 2738,
+      "offset": 0,
+      "path": "sass/components/forms/_radio-buttons.scss",
+      "hash": "e9079bb0270fc098370051f1825a769b519cc3a4",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/forms/_range.scss",
+      "length": 3197,
+      "offset": 0,
+      "path": "sass/components/forms/_range.scss",
+      "hash": "9d4397114c24de2e203df05f0d3f5d5ffe959f3b",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/forms/_select.scss",
+      "length": 3369,
+      "offset": 0,
+      "path": "sass/components/forms/_select.scss",
+      "hash": "83f245f706e6251c0bfe61430e55db4fe01f8ae9",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/forms/_switches.scss",
+      "length": 2179,
+      "offset": 0,
+      "path": "sass/components/forms/_switches.scss",
+      "hash": "d61e403d0293c6edee142cd184c9e470054b78a6",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_badges.scss",
+      "length": 1124,
+      "offset": 0,
+      "path": "sass/components/_badges.scss",
+      "hash": "e2b0fb0a7e3ae4f61adb3a9c05358093042846cd",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_buttons.scss",
+      "length": 6694,
+      "offset": 0,
+      "path": "sass/components/_buttons.scss",
+      "hash": "b1569333d80a58bc115ce91e28b88eef213013bc",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_cards.scss",
+      "length": 3447,
+      "offset": 0,
+      "path": "sass/components/_cards.scss",
+      "hash": "11e2b96a61d0bed205da264837611926c73c0248",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_carousel.scss",
+      "length": 1633,
+      "offset": 0,
+      "path": "sass/components/_carousel.scss",
+      "hash": "c01e9afc49cac42a6c96687574c690751168ed2f",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_chips.scss",
+      "length": 1660,
+      "offset": 0,
+      "path": "sass/components/_chips.scss",
+      "hash": "9d7c0dfbe3262ac1f63565ca49fff9e63eb27f57",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_collapsible.scss",
+      "length": 2001,
+      "offset": 0,
+      "path": "sass/components/_collapsible.scss",
+      "hash": "934a8467137aed00bff1aedcad0feb305d0f8e80",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_color-classes.scss",
+      "length": 765,
+      "offset": 0,
+      "path": "sass/components/_color-classes.scss",
+      "hash": "f0b8003674ebad27f57c96005dc6c5aeecb7d6f4",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_color-variables.scss",
+      "length": 8383,
+      "offset": 0,
+      "path": "sass/components/_color-variables.scss",
+      "hash": "b16e15bf6edfa6d68c8204e5002673d35e8c980f",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_datepicker.scss",
+      "length": 2987,
+      "offset": 0,
+      "path": "sass/components/_datepicker.scss",
+      "hash": "32ae6630af6ac1c3fa0ca3dddec2e680028c397e",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_dropdown.scss",
+      "length": 1541,
+      "offset": 0,
+      "path": "sass/components/_dropdown.scss",
+      "hash": "3d1ad110066a22c9302b5c77f00f4c5f709a0ae8",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_global.scss",
+      "length": 13497,
+      "offset": 0,
+      "path": "sass/components/_global.scss",
+      "hash": "d0ffdedf7260a4961b380d33d7d80ce4e7c8c13b",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_grid.scss",
+      "length": 2955,
+      "offset": 0,
+      "path": "sass/components/_grid.scss",
+      "hash": "402a4dee2b15e4dd751ddb959aca8e0185a09e9c",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_icons-material-design.scss",
+      "length": 181,
+      "offset": 0,
+      "path": "sass/components/_icons-material-design.scss",
+      "hash": "c563d0a099fa50500c58a9b9dab61185ea0134c1",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_materialbox.scss",
+      "length": 698,
+      "offset": 0,
+      "path": "sass/components/_materialbox.scss",
+      "hash": "14cf5ce271ba7d56cc4682876b4665a63fb9432a",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_modal.scss",
+      "length": 1495,
+      "offset": 0,
+      "path": "sass/components/_modal.scss",
+      "hash": "b89d59d9325114c847c359149a4ee26465816de2",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_navbar.scss",
+      "length": 3788,
+      "offset": 0,
+      "path": "sass/components/_navbar.scss",
+      "hash": "6a6f0cd1129de29d57a10296561bd5651d8f81f8",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_normalize.scss",
+      "length": 8166,
+      "offset": 0,
+      "path": "sass/components/_normalize.scss",
+      "hash": "30778d446832f3e3922c360e69c22edd65935537",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_preloader.scss",
+      "length": 10140,
+      "offset": 0,
+      "path": "sass/components/_preloader.scss",
+      "hash": "7f094adb34ec94531112bfb4988bee0f2080dd4b",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_pulse.scss",
+      "length": 618,
+      "offset": 0,
+      "path": "sass/components/_pulse.scss",
+      "hash": "0a5a6f7e6c662488fce1a7e45a0eec465071a2c9",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_sidenav.scss",
+      "length": 4152,
+      "offset": 0,
+      "path": "sass/components/_sidenav.scss",
+      "hash": "5dc27d46a8fa30bdac1ba07065370fa17ca2775c",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_slider.scss",
+      "length": 1551,
+      "offset": 0,
+      "path": "sass/components/_slider.scss",
+      "hash": "d7c475192db547750acb128402ac9ea0fc57d511",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_table_of_contents.scss",
+      "length": 619,
+      "offset": 0,
+      "path": "sass/components/_table_of_contents.scss",
+      "hash": "ba24674a5bc75a08cb8aa6524f5dcf0bd72e0b77",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_tabs.scss",
+      "length": 1796,
+      "offset": 0,
+      "path": "sass/components/_tabs.scss",
+      "hash": "5839df23df8b0391462ac6589d162553131d2a78",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_tapTarget.scss",
+      "length": 2045,
+      "offset": 0,
+      "path": "sass/components/_tapTarget.scss",
+      "hash": "b3a2f07eb1aa538cd2d31db0455d983b53face4e",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_timepicker.scss",
+      "length": 3050,
+      "offset": 0,
+      "path": "sass/components/_timepicker.scss",
+      "hash": "3c8a9c2fc25ef5a80552b92bee59156b5cb615d1",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_toast.scss",
+      "length": 1038,
+      "offset": 0,
+      "path": "sass/components/_toast.scss",
+      "hash": "7c12e44dc0ead8fc44bbc028c33f76d4f4a64e9f",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_tooltip.scss",
+      "length": 632,
+      "offset": 0,
+      "path": "sass/components/_tooltip.scss",
+      "hash": "4ea2c6602437267966968a408b51e8ea4cf61bf4",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_transitions.scss",
+      "length": 263,
+      "offset": 0,
+      "path": "sass/components/_transitions.scss",
+      "hash": "7b3f310462dd7640395b4b5997487a0e53ca15f0",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_typography.scss",
+      "length": 1653,
+      "offset": 0,
+      "path": "sass/components/_typography.scss",
+      "hash": "cee9152d01f9036757dd331f40abb6ff822bd0c0",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_variables.scss",
+      "length": 11581,
+      "offset": 0,
+      "path": "sass/components/_variables.scss",
+      "hash": "dff39d3e750150153968982431c3e6bc70f9e712",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/components/_waves.scss",
+      "length": 2381,
+      "offset": 0,
+      "path": "sass/components/_waves.scss",
+      "hash": "64f8f696b3b06fb113479daa98d3495e15a74804",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    },
+    {
+      "type": "source",
+      "extension": "scss",
+      "file": "web.browser.legacy/sass/materialize.scss",
+      "length": 1120,
+      "offset": 0,
+      "path": "sass/materialize.scss",
+      "hash": "d6dbc825ab8a77cb8a763cade08bfd7d1f5bdf58",
+      "fileOptions": {
+        "isImport": true,
+        "lazy": false
+      }
+    }
+  ]
+}
