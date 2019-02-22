@@ -1,9 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-const Front = () => (
-  <div>
-    <h1>Junior tu papa!!</h1>
-  </div>
-);
+export default class Front extends Component {
 
-export default Front;
+}

@@ -4,5 +4,5 @@ import { render } from 'react-dom';
 import Front from '/imports/ui/Front'
 
 Meteor.startup(() => {
-  render(<Front />, document.getElementById('react-target'));
+  render(<Front />, document.getElementById('app'));
 });
